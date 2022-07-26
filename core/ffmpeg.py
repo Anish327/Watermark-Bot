@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @TgLokii
 
 # This is Telegram Video Watermark Adder Bot's Source Code.
 # I Hardly Made This. So Don't Forget to Give Me Credits.
@@ -40,12 +40,6 @@ async def vidmark(the_media, message, working_dir, watermark_path, output_vid, t
         watermark_path,
         "-filter_complex",
         f"[1][0]scale2ref=w='iw*{size}/100':h='ow/mdar'[wm][vid];[vid][wm]overlay={position}",
-        "-c:v",
-        "h264",
-        "-preset",
-        mode,
-        "-tune",
-        "film",
         "-c:a",
         "copy",
         output_vid
