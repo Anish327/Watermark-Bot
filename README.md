@@ -53,6 +53,10 @@ reset - Reset all settings to default
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Anish327/Watermark-Bot)
 
+#### Easiest Way [Deploy To Railway] 
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/IQ7Caa)
+
 #### Video Tutorial:
 [![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://www.youtube.com/watch?v=A7wnaKMHpvU&t)
 
